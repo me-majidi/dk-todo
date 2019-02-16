@@ -1,0 +1,17 @@
+{
+  "name": "dk-todo",
+  "version": "1.0.0",
+  "description": "Simple Todo Application as code challenge for front-end position at Digikala",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "author": {
+    "name": "Mehran Majidi",
+    "email": "me.majiidii@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.4"
+  }
+}
