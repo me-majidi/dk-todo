@@ -1,0 +1,25 @@
+header {
+    background: #4c8fe3;
+    color: #fff;
+    box-shadow: 0px 8px 20px #0000001f;
+}
+
+.navigation {
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation__weather {
+    display: flex;
+    align-items: center;
+}
+
+.navigation__weather-icon {
+    margin-left: 10px;
+}
+
+.navigation__weather-icon img {
+    width: 55px;
+}

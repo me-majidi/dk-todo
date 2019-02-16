@@ -1,0 +1,35 @@
+.loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #fcfcfc;
+    z-index: 1000;
+}
+
+.spinner-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spinner {
+    width             : 5rem;
+    height            : 5rem;
+    display           : inline-block;
+    border            : 5px solid rgba(189, 189, 189, 0.25);
+    border-left-color : var(--color-green-dark);
+    border-top-color  : var(--color-green-dark);
+    animation         : rotate 600ms infinite linear;
+    border-radius     : 50%;
+    border-left-color: #4db6ac;
+    border-top-color: #4db6ac
+}
+
+@keyframes rotate {
+    to {
+        transform : rotate(1turn)
+    }
+}

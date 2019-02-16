@@ -5,8 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Todo</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
 <body>
-    <h1>Webpack</h1>
+    <div class="loading js-app-loader">
+        <div class="spinner-wrapper">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+
+
+    <header>
+        <nav class="navigation container">
+            <div class="navigation__date">
+                <p class="js-date-day"></p>
+                <p class="js-date-month"></p>
+            </div>
+
+            <div class="navigation__weather">
+                <div class="navigation__weather-details">
+                    <p>
+                        <span class="js-temp"></span>
+                        <span>&deg;c</span>
+                    </p>
+                    <p class="weather-info__desc js-weather-desc"></p>
+                </div>
+                <div class="navigation__weather-icon">
+                    <img class="js-weather-icon">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 </body>
 </html>

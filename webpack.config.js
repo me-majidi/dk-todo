@@ -11,7 +11,16 @@ module.exports = ( { mode, presets } = { mode: "production", presets: [] } ) =>
             plugins: [
                 new ProgressPlugin(),
                 new HtmlWebpackPlugin({ template: './src/index.html' })
-            ]
+            ],
+            module: {
+                rules: [
+                    {
+                        test: /\.js$/,
+                        exclude: /node_modules/,
+                        loader: 'babel-loader'
+                    }
+                ]
+            }
         },
         loadConfig(mode)
     );
