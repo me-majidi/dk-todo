@@ -14,13 +14,16 @@
         </div>
     </div>
 
-
-
     <header>
         <nav class="navigation container">
             <div class="navigation__date">
-                <p class="js-date-day"></p>
-                <p class="js-date-month"></p>
+                <div>
+                    <i class="icon-calendar-2"></i>
+                </div>
+                <div>
+                    <p class="js-date-day"></p>
+                    <p class="js-date-month"></p>
+                </div>
             </div>
 
             <div class="navigation__weather">
@@ -38,6 +41,21 @@
         </nav>
     </header>
 
+
+    <main class="container">
+        <form class="todo-form js-new-todo-form">
+            <label for="todo-title" title="todo tile"></label>
+            <input type="text" id="todo-title-input" placeholder="What needs to be done...">
+            <div class="todo-form__add-btn js-new-todo-btn">
+                <i class="icon-add"></i>
+            </div>
+        </form>
+
+
+        <div class="todos-list js-todos-list">
+            
+        </div>
+    </main>
 
     <script
         src="https://code.jquery.com/jquery-3.3.1.min.js"

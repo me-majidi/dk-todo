@@ -23,3 +23,12 @@ header {
 .navigation__weather-icon img {
     width: 55px;
 }
+
+.navigation__date {
+    display: flex;
+
+    i {
+        font-size: 2rem;
+        margin-right: 10px;
+    }
+}
