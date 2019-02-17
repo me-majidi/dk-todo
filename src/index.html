@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Todo</title>
+    <title>DK Todo Application</title>
+    <base href="https://me-majidi.github.io/dk-todo/">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="DK Todo Application">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#4c8fe3">
+    <link rel="manifest" href="manifest.json">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
 <body>
@@ -39,10 +44,7 @@
                 </div>
             </div>
         </nav>
-    </header>
 
-
-    <main class="container">
         <form class="todo-form js-new-todo-form">
             <label for="todo-title" title="todo tile"></label>
             <input type="text" id="todo-title-input" placeholder="What needs to be done...">
@@ -50,8 +52,10 @@
                 <i class="icon-add"></i>
             </div>
         </form>
+    </header>
 
 
+    <main class="container">
         <div class="todos-list js-todos-list">
             
         </div>
