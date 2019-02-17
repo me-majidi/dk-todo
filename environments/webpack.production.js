@@ -5,7 +5,8 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = (mode) => ({
     output: {
-        filename: '[hash].js'
+        filename: '[hash].js',
+        publicPath: '.'
     },
     optimization: {
         minimizer: [
@@ -21,8 +22,18 @@ module.exports = (mode) => ({
         rules: [{
             test: /\.scss$/,
             use: [
-                MiniCssExtractPlugin.loader,
-                "css-loader",
+                {
+                    loader: MiniCssExtractPlugin.loader,
+                    options: {
+                        publicPath: '.'
+                    }
+                },
+                {
+                    loader: "css-loader",
+                    options: {
+                        url: false
+                    }
+                },
                 "sass-loader"
             ]
         }]

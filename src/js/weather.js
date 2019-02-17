@@ -50,3 +50,6 @@ $.ajax({
         updateUiWithWeatherInfo(weatherInfo, res.main.temp);
         removeApplicationLoader();
     });
+
+
+removeApplicationLoader();
