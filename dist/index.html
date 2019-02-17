@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DK Todo Application</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="DK Todo Application">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#4c8fe3">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<link href="d33469c66e9cb6440840.css" rel="stylesheet"></head>
+<body>
+    <div class="loading js-app-loader">
+        <div class="spinner-wrapper">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navigation container">
+            <div class="navigation__date">
+                <div>
+                    <i class="icon-calendar-2"></i>
+                </div>
+                <div>
+                    <p class="js-date-day"></p>
+                    <p class="js-date-month"></p>
+                </div>
+            </div>
+
+            <div class="navigation__weather">
+                <div class="navigation__weather-details">
+                    <p>
+                        <span class="js-temp"></span>
+                        <span>&deg;c</span>
+                    </p>
+                    <p class="weather-info__desc js-weather-desc"></p>
+                </div>
+                <div class="navigation__weather-icon">
+                    <img class="js-weather-icon">
+                </div>
+            </div>
+        </nav>
+
+        <form class="todo-form js-new-todo-form">
+            <label for="todo-title" title="todo tile"></label>
+            <input type="text" id="todo-title-input" placeholder="What needs to be done...">
+            <div class="todo-form__add-btn js-new-todo-btn">
+                <i class="icon-add"></i>
+            </div>
+        </form>
+    </header>
+
+
+    <main class="container">
+        <div class="todos-list js-todos-list">
+            
+        </div>
+    </main>
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="d33469c66e9cb6440840.js"></script></body>
+</html>
