@@ -17,3 +17,6 @@ import './scss/main.scss';
 import './js/weather';
 import './js/date';
 import './js/todo.controller';
+
+
+import './mobile.styles.css';

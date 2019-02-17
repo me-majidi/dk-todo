@@ -14,6 +14,7 @@ const handleCreateTodo = () => {
     const todo = new Todo(inputValue);
     todoStorage.addTodo(todo);
     input.val('');
+    input.blur();
 
     uiController.appendTodoToUi(todo);
 };

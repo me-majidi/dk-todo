@@ -15,7 +15,7 @@ const generateTodoTemplate = ({ title, id, isDone }) => `
 `;
 
 const appendTodoToUi = todo => {
-    todosList.append(generateTodoTemplate(todo));
+    todosList.prepend(generateTodoTemplate(todo));
 };
 
 const removeTodo = id => {
@@ -24,7 +24,7 @@ const removeTodo = id => {
 };
 
 const initUi = todos => {
-    todos.forEach( todo => appendTodoToUi(todo) );
+    todos.forEach( todo => todosList.append(generateTodoTemplate(todo)) );
 };
 
 const toggleTodoState = id => {

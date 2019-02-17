@@ -3,13 +3,14 @@ module.exports = (mode) => ({
         filename: 'bundle.js'
     },
     module: {
-        rules: [{
-            test: /\.scss$/,
-            use: [
-                "style-loader",
-                "css-loader",
-                "sass-loader"
-            ]
+        rules: [
+            {
+                test: /\.scss$/,
+                use: [
+                    "style-loader",
+                    "css-loader",
+                    "sass-loader"
+                ]
         }]
     }
 });

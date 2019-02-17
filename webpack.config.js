@@ -41,6 +41,16 @@ module.exports = ( { mode, presets } = { mode: "production", presets: [] } ) =>
                                 outputPath: 'fonts/'
                             }
                         }]
+                    },
+                    {
+                        test: /\mobile.styles.css$/,
+                        use: [{
+                            loader: 'file-loader',
+                            options: {
+                                name: '[name].[ext]',
+                                outputPath: '.'
+                            }
+                        }]
                     }
                 ]
             }

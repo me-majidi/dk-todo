@@ -34,7 +34,9 @@ module.exports = (mode) => ({
                         url: false
                     }
                 },
-                "sass-loader"
+                {
+                    loader: 'sass-loader'
+                }
             ]
         }]
     },
