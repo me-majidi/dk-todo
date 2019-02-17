@@ -4,8 +4,8 @@ var serviceWorkerOption = {
     ".fonts/dk-todo.svg",
     ".fonts/dk-todo.ttf",
     ".fonts/dk-todo.woff",
-    ".4b6a5647c8db6484e589.css",
-    ".4b6a5647c8db6484e589.js",
+    ".faa28fd776fce2087dd0.css",
+    ".faa28fd776fce2087dd0.js",
     ".index.html"
   ]
 };
