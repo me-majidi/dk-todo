@@ -12,8 +12,8 @@ var serviceWorkerOption = {
     ".favicon.ico",
     ".mstile-150x150.png",
     ".mobile.styles.css",
-    ".f5f2b413cce10f2ac28e.css",
-    ".f5f2b413cce10f2ac28e.js",
+    ".bd91cdc559665163bc38.css",
+    ".bd91cdc559665163bc38.js",
     ".index.html"
   ]
 };
