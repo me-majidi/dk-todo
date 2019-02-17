@@ -1,12 +1,12 @@
 var serviceWorkerOption = {
   "assets": [
-    "/fonts/dk-todo.eot",
-    "/fonts/dk-todo.svg",
-    "/fonts/dk-todo.ttf",
-    "/fonts/dk-todo.woff",
-    "/d9728f7bbedaf01e5c28.css",
-    "/d9728f7bbedaf01e5c28.js",
-    "/index.html"
+    "/dk-todofonts/dk-todo.eot",
+    "/dk-todofonts/dk-todo.svg",
+    "/dk-todofonts/dk-todo.ttf",
+    "/dk-todofonts/dk-todo.woff",
+    "/dk-todo9ac6fddef44f9c72d37a.css",
+    "/dk-todo9ac6fddef44f9c72d37a.js",
+    "/dk-todoindex.html"
   ]
 };
         
